@@ -9,6 +9,6 @@ int main() {
     scanf("%s", str);
     scanf("%s", str1);
 
-    printf("%s and %s", str,str1);
+    printf("You entered: %s and %s", str,str1);
     return 0;
 }
