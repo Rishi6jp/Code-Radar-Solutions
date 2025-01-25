@@ -7,6 +7,6 @@ char* welcome() {
 int main() {
     double a;
     scanf("%lf", a);
-    printf("%ls", a);
+    printf("You entered: %ls.4f", a);
     return 0;
 }
