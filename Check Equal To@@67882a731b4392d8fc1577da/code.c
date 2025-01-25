@@ -5,6 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    scanf("%d %d", int a, int b);
-    printf(a==b ? "True" : "False");
+    int a,b;
+    scanf("%d %d", &a, &b);
+    printf("%s", (a==b) ? "True" : "False");
 }
