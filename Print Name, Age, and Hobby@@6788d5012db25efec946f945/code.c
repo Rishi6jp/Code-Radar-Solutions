@@ -4,7 +4,6 @@ char* welcome() {
     return "Welcome to Code Radar!";
 }
 
-#define INT_MAX 100000;
 
 int main() {
     char *name[] = (char*)malloc(sizeof(char*));
