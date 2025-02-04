@@ -5,7 +5,7 @@ char* welcome() {
 }
 int replacer(x,y){
    int mask = ~(x << y);
-   return mask;
+   return a & mask;
 }
 
 int main() {
