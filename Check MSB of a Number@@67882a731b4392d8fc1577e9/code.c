@@ -8,8 +8,8 @@ int main() {
     int a;
     scanf("%d", &a);
     if(a>=0){
-        printf("Set");
+        printf("Note Set");
     } else {
-        printf("Not Set");
+        printf("Set");
     }
 }
