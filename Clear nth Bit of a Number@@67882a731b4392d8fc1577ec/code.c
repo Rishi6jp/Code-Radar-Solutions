@@ -4,7 +4,8 @@ char* welcome() {
     return "Welcome to Code Radar!";
 }
 int replacer(x,y){
-   return x << y = 0;
+   int mask = ~(x << y);
+   return mask;
 }
 
 int main() {
