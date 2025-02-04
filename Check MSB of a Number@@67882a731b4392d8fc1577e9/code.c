@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d", &a);
-    if(a0){
+    if(a>=0){
         printf("Not Set");
     } else {
         printf("Set");
