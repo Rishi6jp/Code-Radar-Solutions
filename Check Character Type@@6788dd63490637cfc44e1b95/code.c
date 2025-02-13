@@ -7,11 +7,10 @@ int main() {
     if(65<=a && a<=90 || 97<=a && a<=122){
         if(a=="a"|| a=="e" || a == "i" || a=="o" || a == "u"){
         printf("Vowel");
-    } else {
+        } else {
         printf("Consonant");
-    }
-    }
-    else if (48<=a && a<=57){
+        }
+    } else if (48<=a && a<=57){
         printf("Digit");
     } else {
         printf("Special Character");
