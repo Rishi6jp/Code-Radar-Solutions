@@ -10,12 +10,17 @@ int isPrime(x){
         }
         if(count>2){
             return True;
-        } 
+        }
     }
+    return false;
 }
 int main(){
     int a;
     scanf("%d", &a);
-    
+    if(isPrime(a)){
+        printf("Prime");
+    } else {
+        printf("Not Prime");
+    }
     return 0;
 }
