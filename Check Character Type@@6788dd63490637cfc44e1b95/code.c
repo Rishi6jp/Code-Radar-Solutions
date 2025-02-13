@@ -3,9 +3,9 @@
 
 int main() {
     char a;
-    scanf("%c", a);
+    scanf("%c", &a);
     if(65<=a && a<=90 || 97<=a && a<=122){
-        if(a=="a"|| a=="e" || a == "i" || a=="o" || a == "u"){
+        if(a=='a'|| a=='e' || a == 'i' || a=='o' || a == 'u'){
         printf("Vowel");
         } else {
         printf("Consonant");
