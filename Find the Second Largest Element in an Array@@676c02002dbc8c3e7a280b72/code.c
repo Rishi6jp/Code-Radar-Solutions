@@ -25,7 +25,7 @@ int main() {
         }// else {
         //     s_largest = -1;
         // }
-        if(n<=1 || s_largest == INT_MIN){
+        if(n<=1){
             s_largest = -1;
         }
     
