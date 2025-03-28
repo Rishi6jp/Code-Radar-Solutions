@@ -1,5 +1,6 @@
 // Your code here...
 #include <stdio.h>
+#include <limits.h>
 
 #define MIN -100000
 
@@ -10,7 +11,7 @@ int main() {
     for(int i = 0; i< n; i++){
         scanf("%d", &arr[i]);
     }
-    int largest=MIN;
+    int largest=INT_MIN;
     int s_largest=-1;
     for(int i = 0; i< n; i++){
         
