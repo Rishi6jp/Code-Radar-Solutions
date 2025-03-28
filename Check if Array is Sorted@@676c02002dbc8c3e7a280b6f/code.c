@@ -12,8 +12,7 @@ int main() {
     }
     bool sorted = true;
     for(int i = 0; i < n; i++){
-        if(arr[i]<=arr[i+1]){sorted = true;break;}
-        else{
+        if(arr[i]>=arr[i+1]){
             sorted = false;
             break;
         }
