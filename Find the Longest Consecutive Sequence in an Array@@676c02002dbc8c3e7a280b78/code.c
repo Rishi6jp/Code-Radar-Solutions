@@ -26,6 +26,7 @@ int main(){
     
     for(int i = 0; i<n; i++){
         if(arr[i+1] == arr[i] + 1) count++;
+        else count = 1
     }
     printf("%d\n", count);
 }
