@@ -17,7 +17,7 @@ int main(){
                 arr[j] = -1;
             }
             
-    }if(arr[i]!=-1) printf("%d %d\n", ele, count);
+    } printf("%d %d\n", ele, count);
     count = 0;
     }
     return 0;
