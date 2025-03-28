@@ -10,7 +10,7 @@ int main() {
     for(int i = 0; i < n; i++){
         scanf("%d", &arr[i]);
     }
-    int leader = INT_MIN;
+    int leader;
     for(int i = 0; i < n; i++){
         
         if(arr[i]<arr[i+1]){
