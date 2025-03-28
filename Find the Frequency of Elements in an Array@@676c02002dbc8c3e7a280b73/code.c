@@ -2,20 +2,19 @@
 #include <stdio.h>
 
 int main(){
-    printf("Hello");
-    // int n;
-    // scanf("%d", &n);
-    // int arr[n];
-    // for(int i = 0; i<n; i++){
-    //     scanf("%d", arr[i]);
-    // }
-    // int count = 0;
-    // for(int i = 0; i<n; i++){
-    //     for(int j = i; j<n; j++){
-    //         if(arr[i]==arr[j]){
-    //             count += 1;
-    //         }
-    //     }
-    //     printf("%d %d", arr[i], count);
-    // }
+    int n;
+    scanf("%d", &n);
+    int arr[n];
+    for(int i = 0; i<n; i++){
+        scanf("%d", arr[i]);
+    }
+    int count = 0;
+    for(int i = 0; i<n; i++){
+        for(int j = i; j<n; j++){
+            if(arr[i]==arr[j]){
+                count += 1;
+            }
+        }
+        printf("%d %d", arr[i], count);
+    }
 }
