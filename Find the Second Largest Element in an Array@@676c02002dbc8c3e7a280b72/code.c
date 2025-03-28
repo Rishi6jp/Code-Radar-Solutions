@@ -13,7 +13,8 @@ int main() {
     int largest=MIN;
     int s_largest=-1;
     for(int i = 0; i< n; i++){
-        if(largest<arr[i]){
+        
+        if(largest<arr[i] && n!=-1){
             s_largest = largest;
             largest = arr[i];
         } else {
