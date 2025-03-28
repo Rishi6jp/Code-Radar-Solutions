@@ -12,15 +12,12 @@ int main(){
     for(int i = 0;i<n; i++){
         int ele = arr[i];
         for(int j = i;j<n; j++){
-            
             if(arr[i] == arr[j]){
                 count += 1;
                 arr[j] = -1;
             }
-            // if(arr[i] == -1){
-            //     break;
-            // }
-    }printf("%d %d\n", ele, count);
+    }
+    printf("%d %d\n", ele, count);
     count = 0;
     }
     return 0;
