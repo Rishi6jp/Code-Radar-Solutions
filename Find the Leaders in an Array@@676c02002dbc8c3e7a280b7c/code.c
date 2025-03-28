@@ -13,7 +13,7 @@ int main() {
     
     for(int i = 0; i < n; i++){
         int leader = 1;// true = 1, false = 0
-        for(int j = i; j< n-1; j++){
+        for(int j = i; j< n; j++){
             if(arr[i]<arr[j]){
                 leader = 0;
                 break;
