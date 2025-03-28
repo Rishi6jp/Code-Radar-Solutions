@@ -23,7 +23,7 @@ int main() {
         if(s_largest<arr[i] && n>1 && arr[i]!=largest){
             s_largest = arr[i];
         } else {
-            s_largest = -1
+            s_largest = -1;
         }
     }
     printf("%d", s_largest);
