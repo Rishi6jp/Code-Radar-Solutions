@@ -27,6 +27,9 @@ int main(){
         } else{
             count = 0;
         }
+        if(f_count<count){
+            f_count = count;
+        }
     }
     printf("%d", f_count);
 }
