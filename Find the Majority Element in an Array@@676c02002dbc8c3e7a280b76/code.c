@@ -26,5 +26,5 @@ int main() {
             }
         }
     }
-    printf("%d", f_count);
+    printf("%d", m_ele);
 }
