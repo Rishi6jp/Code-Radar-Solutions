@@ -15,6 +15,8 @@ int main() {
         for(int j = i; j< n; j++){
             if(arr[i]>=arr[j]){
                 leader = arr[i];
+            } else{
+                break;
             }
         }
         printf("%d ", leader);
