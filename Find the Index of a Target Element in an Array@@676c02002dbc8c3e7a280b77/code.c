@@ -16,7 +16,7 @@ int main() {
             printf("i");
             return 0;
         }
-        else printf("-1")
+        else printf("-1");
     }
 
 
