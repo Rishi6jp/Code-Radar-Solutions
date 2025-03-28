@@ -1,7 +1,7 @@
 // Your code here...
 
 #include <stdio.h>
-#include <std.bool>
+#include <stdbool.h>
 int main() {
     int n; 
     scanf("%d", &n);
