@@ -15,11 +15,8 @@ int main(){
                 count += 1;
                 arr[j] = -1;
             }
-            if(arr[i]==-1){
-                break;
-            }
-    }
-    printf("%d %d\n", arr[i], count);
+            
+    }if(arr[i]==-1) printf("%d %d\n", arr[i], count);
     count = 0;
     }
     return 0;
