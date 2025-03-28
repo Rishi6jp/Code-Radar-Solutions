@@ -20,7 +20,7 @@ int main() {
     }
     for(int i = 0; i< n; i++){
         
-        if(s_largest<=arr[i] && arr[i]!=largest){
+        if(arr[i] < largest && s_largest < arr[i]){
             s_largest = arr[i];
         }// else {
         //     s_largest = -1;
