@@ -15,7 +15,7 @@ int main() {
     for(int i = 0; i< n; i++){
         
         if(largest<arr[i] && n>1){
-            s_largest = largest;
+            largest = arr[i];
         } 
     }
     for(int i = 0; i< n; i++){
