@@ -17,9 +17,9 @@ int main(){
                 count += 1;
                 arr[j] = -1;
             }
-            if(arr[i] == -1){
-                break;
-            }
+            // if(arr[i] == -1){
+            //     break;
+            // }
     }printf("%d %d\n", ele, count);
     count = 0;
     }
