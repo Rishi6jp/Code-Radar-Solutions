@@ -10,12 +10,13 @@ int main(){
     }
     int count = 0;
     for(int i = 0; i<n; i++){
+        int ele = arr[i];
         for(int j = i; j<n; j++){
             if(arr[i] == arr[j]){
                 count += 1;
             }
         }
-        printf("%d %d\n", arr[i], count);
+        printf("%d %d\n", ele, count);
         count = 0;
     }
 }
