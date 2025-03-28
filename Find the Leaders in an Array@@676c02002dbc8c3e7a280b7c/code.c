@@ -17,7 +17,7 @@ int main() {
                 leader = 1;
             } else leader = 0; break;
         }
-        if(leader) printf("%d", arr[i]);
+        if(leader) printf("%d ", arr[i]);
         
     }
    
