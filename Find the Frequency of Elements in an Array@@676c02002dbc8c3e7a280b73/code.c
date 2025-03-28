@@ -12,6 +12,9 @@ int main(){
     for(int i = 0;i<n; i++){
         int ele = arr[i];
         for(int j = i;j<n; j++){
+            if(arr[i] == -1){
+                break;
+            }
             if(arr[i] == arr[j]){
                 count += 1;
                 arr[j] = -1;
