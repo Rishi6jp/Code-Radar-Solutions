@@ -28,6 +28,6 @@ int main() {
         count = 0;  
     }
     printf("-1");
-    return;
+    return 0;
     
 }
