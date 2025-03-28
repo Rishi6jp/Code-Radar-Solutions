@@ -8,15 +8,16 @@ int main() {
     for(int i = 0; i< n; i++){
         scanf("%d", &arr[i]);
     }
-    int largest=0;
+    int largest=INT_MIN;
     int s_largest=largest;
     for(int i = 0; i< n; i++){
         if(largest<arr[i]){
             s_largest = largest;
             largest = arr[i];
+        } else {
+            s_largest = -1
         }
     }
-    if(s_largest == 0) printf("%d", -1);
-    else printf("%d", s_largest);
+    printf("%d", s_largest);
     return 0;
 }
