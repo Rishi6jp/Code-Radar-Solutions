@@ -25,9 +25,10 @@ int main() {
         }// else {
         //     s_largest = -1;
         // }
-        if(n<=1){
+        if(n<=1 || s_largest == largest){
             s_largest = -1;
         }
+    
     }
     printf("%d", s_largest);
     return 0;
