@@ -14,6 +14,7 @@ int main(){
         for(int j = i;j<n; j++){
             if(arr[i] == arr[j]){
                 count += 1;
+                arr[j] = -1;
             }
             
     }if(arr[i]!=-1) printf("%d %d\n", ele, count);
