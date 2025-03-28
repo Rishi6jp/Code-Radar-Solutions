@@ -10,7 +10,6 @@ int main() {
     for(int i = 0; i < n; i++){
         scanf("%d", &arr[i]);
     }
-    int leader;
     int leader = 1;// true = 1, false = 0
     for(int i = 0; i < n; i++){
         for(int j = i; j< n-1; j++){
