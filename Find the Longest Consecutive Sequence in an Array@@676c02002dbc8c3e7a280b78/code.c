@@ -9,7 +9,7 @@ int main(){
     for(int i = 0; i< n; i++){
         scanf("%d", &arr[i]);
     }
-    int count = 1;
+    
     for(int i = 0; i<n; i++){
         for(int j = 0; j<n; j++){
             if(arr[i]>arr[j]){
@@ -19,18 +19,18 @@ int main(){
             }
         }
     }
-    int f_count =0;
+
+    int count = 1;
+    
     for(int i = 0; i<n; i++){
         if(arr[i]==arr[i]-1){
             count +=1;
         } else{
             count = 0;
         }
-        if(f_count<count){
-            f_count = count;
-        }
+    
     }
-    printf("%d", f_count);
+    printf("%d", count);
 }
 
 
