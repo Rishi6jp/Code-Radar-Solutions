@@ -10,9 +10,9 @@ int main() {
     }
     int peak = -1;
     for(int i = 0; i<n; i++){
-        if(arr[i]>arr[i+1]){
-            break;
-        } else peak = arr[i+1];
+        if(arr[i]<arr[i+1]){
+            peak = arr[i];
+        } else break;
     }
 
     printf("%d", peak);
