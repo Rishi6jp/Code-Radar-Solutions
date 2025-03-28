@@ -23,9 +23,11 @@ int main() {
         }
         if(count > n/2 && ele != -1){
             printf("%d\n", ele);
-        
+            return 0;
         }
         count = 0;  
     }
+    printf("-1");
+    return;
     
 }
