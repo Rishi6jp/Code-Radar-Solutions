@@ -11,14 +11,12 @@ int main() {
         scanf("%d", &arr[i]);
     }
     int largest=MIN;
-    int s_largest=largest;
+    int s_largest=-1;
     for(int i = 0; i< n; i++){
         if(largest<arr[i]){
             s_largest = largest;
             largest = arr[i];
-        } else {
-            s_largest = -1;
-        }
+        } 
     }
     printf("%d", s_largest);
     return 0;
