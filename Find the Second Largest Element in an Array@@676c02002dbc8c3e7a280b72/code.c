@@ -16,10 +16,13 @@ int main() {
         
         if(largest<arr[i] && n>1){
             s_largest = largest;
-            largest = arr[i];
-        } else {
-            s_largest = -1;
-        }
+        } 
+    }
+    for(int i = 0; i< n; i++){
+        
+        if(s_largest<arr[i] && n>1 && arr[i]!=largest){
+            s_largest = largest;
+        } 
     }
     printf("%d", largest);
     return 0;
