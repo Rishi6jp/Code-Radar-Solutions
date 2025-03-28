@@ -21,6 +21,6 @@ int main() {
             s_largest = -1;
         }
     }
-    printf("%d", s_largest);
+    printf("%d", largest);
     return 0;
 }
