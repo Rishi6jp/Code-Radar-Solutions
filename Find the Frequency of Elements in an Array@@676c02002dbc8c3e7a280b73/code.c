@@ -9,5 +9,13 @@ int main(){
         scanf("%d", arr[i]);
     }
     int count = 0;
-    printf("Hello");
+    for(int i = 0; i<n; i++){
+        for(int j = i; j<n; j++){
+            if(arr[i]==arr[j]){
+                count += 1;
+            }
+        }
+        printf("%d %d", arr[i], count);
+    }
+    return 0;
 }
