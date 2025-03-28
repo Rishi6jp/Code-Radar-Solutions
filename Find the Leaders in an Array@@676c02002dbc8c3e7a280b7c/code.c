@@ -11,15 +11,14 @@ int main() {
         scanf("%d", &arr[i]);
     }
     int leader;
+    int leader = 1// true = 1, false = 0
     for(int i = 0; i < n; i++){
-        for(int j = i+1; j< n; j++){
-            if(arr[i]>=arr[j]){
-                leader = arr[i];
-            } else{
-                break;
-            }
+        for(int j = i; j< n-1; j++){
+            if(arr[i]>arr[j+1]){
+                leader = 1;
+            } else leader = 0; break;
         }
-        printf("%d ", leader);
+        if(leader) printf("%d", arr[i]);
         
     }
    
