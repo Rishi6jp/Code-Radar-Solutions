@@ -1,7 +1,7 @@
 // Your code here...
 
 #include <stdio.h>
-
+#include <bool>
 int main() {
     int n; 
     scanf("%d", &n);
@@ -10,11 +10,11 @@ int main() {
     for( int i = 0; i<n; i++){
         scanf("%d", &arr[i]);
     }
-     bool sorted = True;
+    bool sorted = true;
     for(int i = 0; i < n; i++){
-        if(arr[i]<arr[i+1]) sorted = True;
+        if(arr[i]<arr[i+1]) sorted = true;
         else{
-            sorted = False;
+            sorted = false;
             break;
         }
     }
