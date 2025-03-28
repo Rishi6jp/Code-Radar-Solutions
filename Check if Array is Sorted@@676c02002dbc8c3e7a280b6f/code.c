@@ -10,15 +10,15 @@ int main() {
     for( int i = 0; i<n; i++){
         scanf("%d", &arr[i]);
     }
-
+     bool sorted = true
     for(int i = 0; i < n; i++){
-        if(arr[i]<=arr[i+1]){
-            printf("Sorted");
-            break;
-        } else {
-            printf("Not Sorted");
+        if(arr[i]<arr[i+1]) sorted = true;
+        else{
+            sorted = false;
             break;
         }
     }
+    if(sorted) printf("Sorted");
+    else printf("Not Sorted");
     return 0;
 }
