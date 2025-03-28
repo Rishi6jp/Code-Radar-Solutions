@@ -24,6 +24,6 @@ int main() {
             s_largest = arr[i];
         } 
     }
-    printf("%d", largest);
+    printf("%d", s_largest);
     return 0;
 }
