@@ -20,11 +20,12 @@ int main() {
                 count += 1;
                 arr[j] = -1;
             }
-            if(count > n/2){
+            
+        }
+        if(count > n/2){
                 f_count = count;
                 m_ele = ele;
             }
-        }
     }
     printf("%d", m_ele);
 }
