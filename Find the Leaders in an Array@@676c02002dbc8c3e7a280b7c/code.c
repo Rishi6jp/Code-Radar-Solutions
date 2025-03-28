@@ -13,8 +13,9 @@ int main() {
     int leader = 1;// true = 1, false = 0
     for(int i = 0; i < n; i++){
         for(int j = i; j< n-1; j++){
-            if(arr[i]<arr[j+1]){
-                leader = 0; break;}
+            if(arr[i]<arr[j]){
+                leader = 0; break;
+                }
         }
         if(leader) printf("%d ", arr[i]);
         
