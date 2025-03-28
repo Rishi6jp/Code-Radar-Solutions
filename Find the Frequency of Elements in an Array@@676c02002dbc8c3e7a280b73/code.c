@@ -12,11 +12,13 @@ int main(){
     for(int i = 0; i<n; i++){
         int ele = arr[i];
         for(int j = i; j<n; j++){
-            if(arr[i] == arr[j]){
+            if(ele== arr[j] && arr[i] != -1){
                 count += 1;
+                arr[j] = -1;
             }
+
         }
-        printf("%d %d\n", ele, count);
+        if(ele!=-1)printf("%d %d\n", ele, count);
         count = 0;
     }
 }
