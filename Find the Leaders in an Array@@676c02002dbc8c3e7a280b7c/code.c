@@ -22,5 +22,5 @@ int main() {
         printf("%d ", leader);
         
     }
-    printf("%d", arr[n-1]);
+   
 }
