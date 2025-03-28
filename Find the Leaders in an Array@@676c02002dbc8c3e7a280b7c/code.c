@@ -17,7 +17,7 @@ int main() {
                 leader = arr[i];
             }
         }
-        printf("%d", leader);
+        printf("%d ", leader);
         
     }
     printf("%d", arr[n-1]);
