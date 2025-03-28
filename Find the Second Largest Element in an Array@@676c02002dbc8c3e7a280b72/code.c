@@ -21,7 +21,7 @@ int main() {
     for(int i = 0; i< n; i++){
         
         if(s_largest<arr[i] && n>1 && arr[i]!=largest){
-            s_largest = largest;
+            s_largest = arr[i];
         } 
     }
     printf("%d", largest);
