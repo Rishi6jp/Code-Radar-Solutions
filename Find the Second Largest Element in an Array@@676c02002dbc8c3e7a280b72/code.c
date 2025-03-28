@@ -16,7 +16,9 @@ int main() {
         if(largest<arr[i]){
             s_largest = largest;
             largest = arr[i];
-        } 
+        } else {
+            s_largest = -1;
+        }
     }
     printf("%d", s_largest);
     return 0;
