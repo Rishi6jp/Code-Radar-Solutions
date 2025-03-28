@@ -25,11 +25,11 @@ int main() {
         }// else {
         //     s_largest = -1;
         // }
-        if( s_largest == INT_MIN){
+        
+    
+    }if( s_largest == INT_MIN){
             s_largest = -1;
         }
-    
-    }
     printf("%d", s_largest);
     return 0;
 }
