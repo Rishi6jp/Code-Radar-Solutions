@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <limits.h>
 
-#define MIN -100000
 
 int main() {
     int n; 
@@ -14,16 +13,14 @@ int main() {
     int largest=INT_MIN;
     int s_largest=-1;
     for(int i = 0; i< n; i++){
+        
         if(largest<arr[i] && n>1){
+            s_largest = largest;
             largest = arr[i];
+        } else {
+            s_largest = -1;
         }
     }
-    for(int i = 0; i< n; i++){
-        if(arr[i]<largest&& n>1){
-            s_largest = arr[i];
-        }
-    }
-    
-    printf("%d", largest);
+    printf("%d", s_largest);
     return 0;
 }
