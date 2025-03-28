@@ -10,7 +10,7 @@ int main() {
     for( int i = 0; i<n; i++){
         scanf("%d", &arr[i]);
     }
-     bool sorted = true
+     bool sorted = true;
     for(int i = 0; i < n; i++){
         if(arr[i]<arr[i+1]) sorted = true;
         else{
