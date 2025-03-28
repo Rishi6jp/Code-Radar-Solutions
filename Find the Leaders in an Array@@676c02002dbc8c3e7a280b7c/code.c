@@ -13,13 +13,6 @@ int main() {
     int leader;
     for(int i = 0; i < n; i++){
         
-        if(arr[i]<arr[i+1]){
-            leader = arr[i+1];
-            printf("%d ", leader);
-        }
-
-
-
         if(i==n-1){
             printf("%d", arr[i]);
         }
