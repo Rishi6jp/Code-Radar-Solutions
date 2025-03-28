@@ -12,7 +12,7 @@ int main() {
     for(int i = 0; i<n; i++){
         if(arr[i]>arr[i+1]){
             break;
-        } else peak = arr[i];
+        } else peak = arr[i+1];
     }
 
     printf("%d", peak);
