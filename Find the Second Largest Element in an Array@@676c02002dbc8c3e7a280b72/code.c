@@ -24,6 +24,6 @@ int main() {
         }
     }
     
-    printf("%d", s_largest);
+    printf("%d", largest);
     return 0;
 }
