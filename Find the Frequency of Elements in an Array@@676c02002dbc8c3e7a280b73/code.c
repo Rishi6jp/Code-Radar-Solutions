@@ -8,15 +8,15 @@ int main(){
     for(int i = 0;i<n; i++){
         scanf("%d", &arr[i]);
     }
-    int count = 1;
+    int count = 0;
     for(int i = 0;i<n; i++){
-        for(int j = i+1;j<n; j++){
+        int ele = arr[i];
+        for(int j = i;j<n; j++){
             if(arr[i] == arr[j]){
                 count += 1;
-                arr[j] = -1;
             }
             
-    }if(arr[i]!=-1) printf("%d %d\n", arr[i], count);
+    }if(arr[i]!=-1) printf("%d %d\n", ele, count);
     count = 0;
     }
     return 0;
