@@ -11,16 +11,19 @@ int main() {
 
     int start = 0;
     int end = n-1;
+    int cond = 1;
     while(start==end){
-        if(arr[start]==arr[end]){
-            printf("YES");
-            return 0;
-        }else{printf("NO");
-    return 0;
-
+        if(arr[start]!=arr[end]){
+            cond = 0;
+            break;
         }
         start++;
         end--;
+    }
+    if(cond){
+        printf("YES");
+    } else {
+        printf("NO")
     }
     
 }
