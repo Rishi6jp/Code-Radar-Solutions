@@ -12,7 +12,7 @@ int main() {
     int start = 0;
     int end = n-1;
     int cond = 1;
-    while(start==end){
+    while(start<end){
         if(arr[start]!=arr[end]){
             cond = 0;
             break;
