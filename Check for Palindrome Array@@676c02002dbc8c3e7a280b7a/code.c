@@ -23,7 +23,7 @@ int main() {
     if(cond){
         printf("YES");
     } else {
-        printf("NO")
+        printf("NO");
     }
     
 }
