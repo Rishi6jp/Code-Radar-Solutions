@@ -10,7 +10,7 @@ int main() {
     }
 
     int start = 0;
-    int end = n;
+    int end = n-1;
     while(start<end){
         if(arr[start]!=arr[end]){
             printf("No");
