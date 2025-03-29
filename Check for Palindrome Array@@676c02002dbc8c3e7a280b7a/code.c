@@ -11,7 +11,7 @@ int main() {
 
     int start = 0;
     int end = n-1;
-    while(start<end){
+    while(start=<end){
         if(arr[start]!=arr[end]){
             printf("NO");
             return 0;
