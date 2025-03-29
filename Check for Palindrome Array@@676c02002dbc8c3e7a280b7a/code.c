@@ -12,13 +12,15 @@ int main() {
     int start = 0;
     int end = n-1;
     while(start==end){
-        if(arr[start]!=arr[end]){
-            printf("NO");
+        if(arr[start]==arr[end]){
+            printf("YES");
             return 0;
+        }else{printf("NO");
+    return 0;
+
         }
         start++;
         end--;
     }
-    printf("YES");
-    return 0;
+    
 }
