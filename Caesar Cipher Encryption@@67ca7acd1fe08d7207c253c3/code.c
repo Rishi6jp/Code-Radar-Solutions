@@ -3,7 +3,7 @@
 #include<ctype.h>
 
 char caesarCipher(char message[100], int shift, char encrypted[100]){
-    for(int i = 0; i< message.size(); i++){
+    for(int i = 0; i< 100; i++){
         encrypted[i] = message[i]+shift;
     }
     return encrypted
