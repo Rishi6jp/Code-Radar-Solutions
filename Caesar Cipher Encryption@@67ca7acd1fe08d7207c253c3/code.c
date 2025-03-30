@@ -14,7 +14,7 @@ int main() {
     int shift; 
     char encrypted[100]; 
 
-    scanf("%[^\n\]s", message);
+    scanf("%[^\n]s", message);
 
     scanf("%d", &shift);
 
