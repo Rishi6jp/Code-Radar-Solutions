@@ -21,7 +21,7 @@ int main() {
     shift = shift % 26;
     if (shift< 0) shift += 26; 
 
-    encrypted = caesarCipher(message, shift, encrypted);
+    caesarCipher(message, shift, encrypted);
 
     printf("%s\n", encrypted);
 
